@@ -1,19 +1,20 @@
-
-## 📜 The PQF Lagrangian
+## 🧾 The PQF Lagrangian
 
 $$
-\mathcal{L}_{\text{PQF}} = -\frac{1}{2} (\partial_\mu \phi)^2 - \rho_0 e^{-\phi/\phi_s}
-+ \lambda_0 \left(1 - e^{-\phi/\phi_s}\right) \phi \hat{\rho}(x)
-- \frac{\kappa}{2} \left( \epsilon^{\mu\nu\rho\sigma} \partial_\mu \partial_\nu \phi \, \partial_\rho \partial_\sigma \phi \right)
+\mathcal{L}_{\text{PQF}} = -\frac{1}{2} (\partial_\mu \phi)^2 - \rho_0 e^{-\phi/\phi_s} 
++ \lambda_0 \left(1 - e^{-\phi/\phi_s}\right) \phi \hat{\rho}(x) 
+- \frac{\kappa}{2} \left( \epsilon^{\mu\nu\rho\sigma} 
+\partial_\mu \partial_\nu \phi \, 
+\partial_\rho \partial_\sigma \phi \right)
 $$
 
 **Where:**
 
-- \( \phi(x) \) is the Pre Quantum Field  
-- \( \hat{\rho}(x) = \xi \left[ \frac{1}{2} (\partial_\mu \phi)^2 + V(\phi) \right] \) is the emergent matter density  
-- \( V(\phi) = \rho_0 e^{-\phi/\phi_s} \) is the field potential  
-- \( \kappa \) is the vortex coupling constant  
-- \( \lambda_0 \) is the matter–field coupling strength
+\( \phi(x) \) is the Pre Quantum Field  
+\( \hat{\rho}(x) = \xi \left[ \frac{1}{2} (\partial_\mu \phi)^2 + V(\phi) \right] \) is the emergent matter density  
+\( V(\phi) = \rho_0 e^{-\phi/\phi_s} \) is the field potential  
+\( \kappa \) is the vortex coupling constant  
+\( \lambda_0 \) is the matter–field coupling strength
 
 
 ## ✅ Falsifiable Predictions (Testable Now)
