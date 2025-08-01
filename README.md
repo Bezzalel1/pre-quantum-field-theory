@@ -1,20 +1,19 @@
-# Pre Quantum Field Theory (PQF)
-
-This repository contains the full Lagrangian and falsifiable predictions of the **Pre Quantum Field (PQF) Theory**, a unified scalar field model that proposes matter, quantum behavior, curvature, and cosmic structure all emerge from a single coherent-decoherent vacuum field.
-
 ## 📜 The PQF Lagrangian
 
-L_PQF = -½ (∂_μ φ)^2 - ρ₀ e^(−φ/φₛ) - (κ/2)(∇ × ∇φ)^2 + λ₀(1 - e^(−φ/φₛ)) φ ρ̂(x)
+\[
+\mathcal{L}_{\text{PQF}} = -\frac{1}{2} (\partial_\mu \phi)^2 - \rho_0 e^{-\phi/\phi_s}
++ \lambda_0 (1 - e^{-\phi/\phi_s}) \phi \hat{\rho}(x)
+- \frac{\kappa}{2} \left(\epsilon^{\mu\nu\rho\sigma} \partial_\mu \partial_\nu \phi \, \partial_\rho \partial_\sigma \phi \right)
+\]
 
-where  
-- φ(x) is the Pre Quantum Field  
-- ρ̂(x) = ξ[(1/2)(∂_μ φ)^2 + V(φ)] is the emergent matter density  
-- V(φ) = ρ₀ e^(−φ/φₛ) is the field potential  
-- κ is the vortex coupling constant  
-- λ₀ is the matter–field coupling strength
+where:
+- \( \phi(x) \) is the Pre Quantum Field  
+- \( \hat{\rho}(x) = \xi \left[ \frac{1}{2} (\partial_\mu \phi)^2 + V(\phi) \right] \) is the emergent matter density  
+- \( V(\phi) = \rho_0 e^{-\phi/\phi_s} \) is the field potential  
+- \( \kappa \) is the vortex coupling constant  
+- \( \lambda_0 \) is the matter–field coupling strength
 
-> 🔎 *(Full rendered equations and mathematical derivations available in the Zenodo release below)*
-
+🔍 _This revised Lagrangian includes a topological vortex term that activates in discrete simulations or nontrivial topologies and avoids the curl-of-gradient identity problem._
 ---
 
 ## ✅ Falsifiable Predictions (Testable Now)
