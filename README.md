@@ -1,20 +1,20 @@
 ## 📜 The PQF Lagrangian
 
-\[
+$$
 \mathcal{L}_{\text{PQF}} = -\frac{1}{2} (\partial_\mu \phi)^2 - \rho_0 e^{-\phi/\phi_s}
 + \lambda_0 (1 - e^{-\phi/\phi_s}) \phi \hat{\rho}(x)
 - \frac{\kappa}{2} \left(\epsilon^{\mu\nu\rho\sigma} \partial_\mu \partial_\nu \phi \, \partial_\rho \partial_\sigma \phi \right)
-\]
+$$
 
 where:
+
 - \( \phi(x) \) is the Pre Quantum Field  
 - \( \hat{\rho}(x) = \xi \left[ \frac{1}{2} (\partial_\mu \phi)^2 + V(\phi) \right] \) is the emergent matter density  
 - \( V(\phi) = \rho_0 e^{-\phi/\phi_s} \) is the field potential  
 - \( \kappa \) is the vortex coupling constant  
-- \( \lambda_0 \) is the matter–field coupling strength
+- \( \lambda_0 \) is the matter–field coupling strength  
 
-🔍 _This revised Lagrangian includes a topological vortex term that activates in discrete simulations or nontrivial topologies and avoids the curl-of-gradient identity problem._
----
+🔍 *This revised Lagrangian includes a topological vortex term that activates in discrete simulations or nontrivial topologies and avoids the curl-of-gradient identity problem.*
 
 ## ✅ Falsifiable Predictions (Testable Now)
 
