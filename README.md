@@ -1,3 +1,4 @@
+
 ## 📜 The PQF Lagrangian
 
 $$
@@ -6,15 +7,14 @@ $$
 - \frac{\kappa}{2} \left( \epsilon^{\mu\nu\rho\sigma} \partial_\mu \partial_\nu \phi \, \partial_\rho \partial_\sigma \phi \right)
 $$
 
-**where:**
+**Where:**
 
 - \( \phi(x) \) is the Pre Quantum Field  
 - \( \hat{\rho}(x) = \xi \left[ \frac{1}{2} (\partial_\mu \phi)^2 + V(\phi) \right] \) is the emergent matter density  
 - \( V(\phi) = \rho_0 e^{-\phi/\phi_s} \) is the field potential  
 - \( \kappa \) is the vortex coupling constant  
-- \( \lambda_0 \) is the matter–field coupling strength  
+- \( \lambda_0 \) is the matter–field coupling strength
 
-🔍 *This revised Lagrangian includes a topological vortex term that activates only in nontrivial configurations, avoiding the curl-of-gradient issue via second-order antisymmetric derivatives.*
 
 ## ✅ Falsifiable Predictions (Testable Now)
 
