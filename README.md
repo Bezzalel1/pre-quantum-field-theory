@@ -17,6 +17,43 @@
 \( \lambda_0 \) is the matter–field coupling strength
 
 
+## 📦 Final Form of the PQF Lagrangian (Canonical)
+
+$$
+\mathcal{L}_{\mathrm{PQF}}
+= -\frac{1}{2}\,(\partial_\mu \phi)(\partial^\mu \phi)
+\;-\;\rho_0\,e^{-\phi/\phi_s}
+\;-\;\frac{\kappa}{2}\,(\partial_{[\mu}\partial_{\nu]}\theta)(\partial^{[\mu}\partial^{\nu]}\theta)
+\;+\;\lambda_0\big(1-e^{-\phi/\phi_s}\big)\,\phi\,\hat{\rho}(x)\,.
+$$
+
+**Definitions**
+- \( \theta \equiv \phi \bmod 2\pi \) is the compact phase.
+- \( \hat{\rho}(x) = \xi\!\left[\tfrac{1}{2}(\partial_\mu\phi)(\partial^\mu\phi) + V(\phi)\right] \), with \( V(\phi)=\rho_0 e^{-\phi/\phi_s} \).
+- \( \lambda(\phi)=\lambda_0\!\left(1-e^{-\phi/\phi_s}\right) \).
+- Antisymmetrization: \( \partial_{[\mu}\partial_{\nu]}\theta \equiv \partial_\mu\partial_\nu\theta - \partial_\nu\partial_\mu\theta \) (non-zero only at topological defects).
+- Indices are raised with the Minkowski metric \( \eta^{\mu\nu} \).
+
+**Remark (collapse drive)**
+The local conversion drive scales as
+\( D(\phi) \propto \lambda(\phi)\,\phi\,V(\phi)
+= \lambda_0\rho_0\,\phi\,(1-e^{-\phi/\phi_s})\,e^{-\phi/\phi_s} \),
+which has a single maximum at \( \phi \approx 1.44\,\phi_s \).
+
+
+### 🔑 Parameter Reference
+
+| Symbol      | Technical Role            | Intuitive Role         |
+|-------------|---------------------------|------------------------|
+| \( \rho_0 \)   | Base vacuum energy density   | Vacuum’s “fuel tank”    |
+| \( \phi_s \)   | Screening scale              | Critical collapse slope |
+| \( \kappa \)   | Vortex coupling constant     | String/knot tension     |
+| \( \lambda_0 \) | Matter–field coupling       | Collapse switch         |
+| \( \xi \)      | Scaling in \(\hat{\rho}\)    | Conversion efficiency   |
+
+                                                                              
+
+
 
 > **Note on the vortex term:**  
 > In the Lagrangian, the term 
