@@ -17,6 +17,15 @@
 \( \lambda_0 \) is the matter–field coupling strength
 
 
+
+> **Note on the vortex term:**  
+> In the Lagrangian, the term 
+> \(-\tfrac{\kappa}{2}\,\epsilon^{\mu\nu\rho\sigma}\,\partial_\mu\partial_\nu\phi\,\partial_\rho\partial_\sigma\phi\) 
+> is understood in its *compact-phase* form.  Because the Levi‑Civita contraction of second derivatives vanishes for a smooth scalar field, we treat \(\phi\) as a compact phase \(\theta=\phi \bmod 2\pi\) and interpret \(\partial_\mu\partial_\nu\theta\) as an antisymmetrized second derivative that picks out topological defects.  This refinement ensures the term is non‑zero only at vortex cores and other defects, aligning with the topological density used in the theory0.
+
+
+
+
 ## ✅ Falsifiable Predictions (Testable Now)
 
 Each of the following predictions arises directly from the PQF Lagrangian, not as add-ons or postulates. All are testable with current technology and supported by included simulations.
