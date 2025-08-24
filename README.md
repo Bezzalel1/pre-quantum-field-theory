@@ -176,7 +176,7 @@ If you use or reference this work, please cite:
 
 ```bibtex
 @misc{manu2025pqf,
-  author       = {Daniel Manu},
+  author       = {Danny Manu},
   title        = {The Pre Quantum Field: A Lagrangian Framework for Reality},
   year         = {2025},
   publisher    = {Zenodo},
