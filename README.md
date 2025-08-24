@@ -24,7 +24,10 @@ The Pre-Quantum Field (PQF) Lagrangian makes **five bold, testable predictions**
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Bezzalel1/pre-quantum-field-theory/HEAD?labpath=notebooks/pqf_string_tension.ipynb)
 
 3. **Gravitational Wave Phase Deviation**: > 9.2σ beyond GR  
-   🔬 Testable now with LIGO–Virgo–KAGRA O4/O5 runs  
+   🔬 Testable now with LIGO–Virgo–KAGRA O4/O5 runs
+
+  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Bezzalel1/pre-quantum-field-theory/blob/main/notebooks/pqf_grav_wave_phase.ipynb)  
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Bezzalel1/pre-quantum-field-theory/HEAD?labpath=notebooks/pqf_grav_wave_phase.ipynb)
 
 4. **Resolved Hubble Tension**: H₀ ≈ 70.5 km/s/Mpc  
    📊 Pending – prediction resolves early/late universe tension  
