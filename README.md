@@ -14,6 +14,8 @@ The Pre-Quantum Field (PQF) Lagrangian makes **five bold, testable predictions**
 ✅ Confirmed (matches PDG 2023 value: 172.76 ± 0.30 GeV)  
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Bezzalel1/pre-quantum-field-theory/blob/main/notebooks/pqf_top_quark_mass.ipynb)
 
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Bezzalel1/pre-quantum-field-theory/HEAD?labpath=notebooks/pqf_top_quark_mass.ipynb)
+
 2. **QCD String Tension**: 0.948 GeV/fm  
    ✅ Confirmed (matches lattice QCD: 0.94 ± 0.05 GeV/fm)  
 
