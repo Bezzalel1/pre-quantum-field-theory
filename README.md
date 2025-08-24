@@ -17,7 +17,11 @@ The Pre-Quantum Field (PQF) Lagrangian makes **five bold, testable predictions**
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Bezzalel1/pre-quantum-field-theory/HEAD?labpath=notebooks/pqf_top_quark_mass.ipynb)
 
 2. **QCD String Tension**: 0.948 GeV/fm  
-   ✅ Confirmed (matches lattice QCD: 0.94 ± 0.05 GeV/fm)  
+   ✅ Confirmed (matches lattice QCD: 0.94 ± 0.05 GeV/fm)
+
+  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Bezzalel1/pre-quantum-field-theory/blob/main/notebooks/pqf_string_tension.ipynb)
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Bezzalel1/pre-quantum-field-theory/HEAD?labpath=notebooks/pqf_string_tension.ipynb)
 
 3. **Gravitational Wave Phase Deviation**: > 9.2σ beyond GR  
    🔬 Testable now with LIGO–Virgo–KAGRA O4/O5 runs  
