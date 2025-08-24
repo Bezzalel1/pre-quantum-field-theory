@@ -32,7 +32,7 @@ The Pre-Quantum Field (PQF) Lagrangian makes **five bold, testable predictions**
 
 👉 **Try it yourself (Collapse Peak demo):**  
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Bezzalel1/pre-quantum-field-theory/blob/main/notebooks/pqf_predictions.ipynb)
-
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Bezzalel1/pre-quantum-field-theory/HEAD?labpath=notebooks/pqf_predictions.ipynb)
 ---
 
 
