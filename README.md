@@ -1,3 +1,39 @@
+
+
+
+
+
+
+
+# 🔮 Five Key Predictions of Pre-Quantum Field Theory
+
+The Pre-Quantum Field (PQF) Lagrangian makes **five bold, testable predictions** that distinguish it from the Standard Model and General Relativity:
+
+1. **Top Quark Mass**: 172.76 GeV  
+   ✅ Confirmed (matches PDG 2023 value: 172.76 ± 0.30 GeV)  
+
+2. **QCD String Tension**: 0.948 GeV/fm  
+   ✅ Confirmed (matches lattice QCD: 0.94 ± 0.05 GeV/fm)  
+
+3. **Gravitational Wave Phase Deviation**: > 9.2σ beyond GR  
+   🔬 Testable now with LIGO–Virgo–KAGRA O4/O5 runs  
+
+4. **Resolved Hubble Tension**: H₀ ≈ 70.5 km/s/Mpc  
+   📊 Pending – prediction resolves early/late universe tension  
+
+5. **Collapse Peak**: φ ≈ 1.44 φₛ  
+   🧪 Testable – predicts correlation of dark matter halos & visible matter  
+
+---
+
+👉 **Try it yourself (Collapse Peak demo):**  
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Bezzalel1/pre-quantum-field-theory/blob/main/notebooks/pqf_predictions.ipynb)
+
+---
+
+
+
+
 ## Pre Quantum Field (PQF) Lagrangian
 
 ```
