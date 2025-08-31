@@ -43,26 +43,38 @@ The Pre-Quantum Field (PQF) Lagrangian makes **five bold, testable predictions**
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Bezzalel1/pre-quantum-field-theory/HEAD?labpath=notebooks/pqf_predictions.ipynb)
 ---
 
+## ⚛️ Pre Quantum Field (PQF) Lagrangian (Revision Note)
 
+🔄 **Revision Note:** The original vortex term was written as  
+\((\nabla \times \nabla \phi)^2\), which vanishes identically for a smooth scalar field.  
+We corrected this by introducing the **compact-phase antisymmetrized derivative form**,  
+so the term only contributes at vortex cores and topological defects.
 
+---
 
-## Pre Quantum Field (PQF) Lagrangian
+$$
+\mathcal{L}_{\mathrm{PQF}} \;=\; 
+-\tfrac{1}{2} (\partial_\mu \phi)(\partial^\mu \phi)
+-\rho_0 \, e^{-\phi/\phi_s}
+-\tfrac{\kappa}{2} \big( \partial_{[\mu}\partial_{\nu]} \theta \big)
+               \big( \partial^{[\mu}\partial^{\nu]} \theta \big)
++\lambda_0 \Big( 1 - e^{-\phi/\phi_s} \Big)\,\phi\,\hat{\rho}(x)
+$$
 
-```
-\mathcal{L}_{\text{PQF}} = -\frac{1}{2} (\partial_\mu \phi)^2 - \rho_0 e^{-\phi/\phi_s}
-+ \lambda_0 \left(1 - e^{-\phi/\phi_s}\right) \phi \hat{\rho}(x)
-- \frac{\kappa}{2} \left( \epsilon^{\mu\nu\rho\sigma}
-\partial_\mu \partial_\nu \phi \, \partial_\rho \partial_\sigma \phi \right)
-```
+### Definitions
+- \( \theta \equiv \phi \bmod 2\pi \) — compact phase of the field  
+- \( \hat{\rho}(x) = \xi \Big[ \tfrac{1}{2} (\partial_\mu \phi)(\partial^\mu \phi) + V(\phi) \Big] \) — emergent matter density  
+- \( V(\phi) = \rho_0 e^{-\phi/\phi_s} \) — vacuum potential  
+- \( \lambda(\phi) = \lambda_0 \big(1 - e^{-\phi/\phi_s}\big) \) — matter–field coupling  
+- Antisymmetrization: \( \partial_{[\mu}\partial_{\nu]} \theta = \partial_\mu \partial_\nu \theta - \partial_\nu \partial_\mu \theta \)  
+  (non-zero only at topological defects, e.g. vortices)
 
-
-**Where:**
-
-\( \phi(x) \) is the Pre Quantum Field  
-\( \hat{\rho}(x) = \xi \left[ \frac{1}{2} (\partial_\mu \phi)^2 + V(\phi) \right] \) is the emergent matter density  
-\( V(\phi) = \rho_0 e^{-\phi/\phi_s} \) is the field potential  
-\( \kappa \) is the vortex coupling constant  
-\( \lambda_0 \) is the matter–field coupling strength
+### Parameters
+- \( \rho_0 \): base vacuum energy density (vacuum’s “fuel tank”)  
+- \( \phi_s \): screening scale (critical collapse slope)  
+- \( \kappa \): vortex coupling constant (string/knot tension)  
+- \( \lambda_0 \): matter–field coupling strength (collapse switch)  
+- \( \xi \): conversion efficiency factor
 
 
 ## 📦 Final Form of the PQF Lagrangian (Canonical)
