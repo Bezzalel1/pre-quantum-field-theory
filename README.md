@@ -43,12 +43,39 @@ The Pre-Quantum Field (PQF) Lagrangian makes **five bold, testable predictions**
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Bezzalel1/pre-quantum-field-theory/HEAD?labpath=notebooks/pqf_predictions.ipynb)
 ---
 
+
 ## ⚛️ Pre Quantum Field (PQF) Lagrangian (Revision Note)
 
-🔄 **Revision Note:** The original vortex term was written as  
-\((\nabla \times \nabla \phi)^2\), which vanishes identically for a smooth scalar field.  
-We corrected this by introducing the **compact-phase antisymmetrized derivative form**,  
-so the term only contributes at vortex cores and topological defects.
+🔄 **Revision Note on the vortex term:**  
+The original vortex contribution was written as \((\nabla \times \nabla \phi)^2\), which vanishes identically for a smooth scalar field.  
+To resolve this, we reformulated the term using the **compact-phase antisymmetrized derivative form**:
+
+$$
+\mathcal{L}_{\mathrm{PQF}} = -\tfrac{1}{2} (\partial_\mu \phi)(\partial^\mu \phi) 
+- \rho_0 e^{-\phi/\phi_s} 
+- \tfrac{\kappa}{2} \big(\partial_{[\mu}\partial_{\nu]} \theta \big)\big(\partial^{[\mu}\partial^{\nu]} \theta \big) 
++ \lambda_0 \big(1 - e^{-\phi/\phi_s}\big)\,\phi\,\hat{\rho}(x),
+$$
+
+where \(\theta = \phi \bmod 2\pi\) is the compact phase.
+
+---
+
+### Explanation
+- **Why this change?**  
+  The Levi-Civita contraction of second derivatives vanishes for smooth fields, so the naive curl term was always zero.  
+- **What does the new form do?**  
+  By treating \(\phi\) as a compact phase, the antisymmetrized second derivative  
+  \(\partial_{[\mu}\partial_{\nu]} \theta\) becomes non-zero only at **topological defects** (e.g. vortex cores, knots).  
+- **Why is this valid?**  
+  This refinement ensures the vortex term contributes exactly where physics requires it — at phase discontinuities — and aligns with the topological density used throughout PQF.
+
+---
+
+### Supporting Definitions
+- \( \hat{\rho}(x) = \xi \!\left[\tfrac{1}{2} (\partial_\mu \phi)(\partial^\mu \phi) + V(\phi)\right] \) — emergent matter density  
+- \( V(\phi) = \rho_0 e^{-\phi/\phi_s} \) — vacuum potential  
+- \( \lambda(\phi) = \lambda_0(1-e^{-\phi/\phi_s}) \) — matter–field coupling
 
 ---
 
