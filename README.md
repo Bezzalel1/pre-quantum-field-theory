@@ -55,6 +55,7 @@ which vanishes identically for a smooth scalar field.
 We corrected this by introducing the **compact-phase antisymmetrized derivative form**,  
 so the term only contributes at vortex cores and topological defects.
 
+
 ---
 
 ### ✅ Canonical Form
@@ -66,6 +67,34 @@ so the term only contributes at vortex cores and topological defects.
 - \tfrac{\kappa}{2} (\partial_{[\mu}\partial_{\nu]} \theta)(\partial^{[\mu}\partial^{\nu]} \theta)
 + \lambda_0 \big(1 - e^{-\phi/\phi_s}\big)\,\phi\,\hat{\rho}(x)
 
+---
+
+### 📖 Term Definitions
+
+- \(\phi(x)\) — Pre Quantum Field (fundamental scalar field)  
+- \(\theta \equiv \phi \bmod 2\pi\) — compact phase of the field  
+- \(\hat{\rho}(x) = \xi \Big[ \tfrac{1}{2} (\partial_\mu \phi)(\partial^\mu \phi) + V(\phi) \Big]\) — emergent matter density  
+- \(V(\phi) = \rho_0 e^{-\phi/\phi_s}\) — vacuum potential  
+- \(\lambda(\phi) = \lambda_0 (1 - e^{-\phi/\phi_s})\) — matter–field coupling strength  
+- \(\kappa\) — vortex coupling constant (string/knot tension)  
+- \(\rho_0\) — base vacuum energy density (“fuel tank”)  
+- \(\phi_s\) — screening scale (critical collapse slope)  
+- \(\xi\) — conversion efficiency factor  
+
+Indices are raised/lowered with the Minkowski metric \(\eta^{\mu\nu}\).
+
+
+---
+
+### 🔑 Parameter Reference
+
+| Symbol       | Technical Role                 | Intuitive Role          |
+|--------------|--------------------------------|--------------------------|
+| \(\rho_0\)   | Base vacuum energy density     | Vacuum’s “fuel tank”     |
+| \(\phi_s\)   | Screening scale                | Critical collapse slope  |
+| \(\kappa\)   | Vortex coupling constant       | String/knot tension      |
+| \(\lambda_0\)| Matter–field coupling strength | Collapse switch          |
+| \(\xi\)      | Conversion efficiency factor   | Field-to-matter scaling  |
 
 
 
