@@ -61,11 +61,14 @@ so the term only contributes at vortex cores and topological defects.
 ### ✅ Canonical Form
 
 ```math
-\mathcal{L}_{\mathrm{PQF}} = 
+
+$$
+\mathcal{L}_{\mathrm{PQF}} =
 -\tfrac{1}{2} (\partial_\mu \phi)(\partial^\mu \phi)
 - \rho_0 e^{-\phi/\phi_s}
 - \tfrac{\kappa}{2} (\partial_{[\mu}\partial_{\nu]} \theta)(\partial^{[\mu}\partial^{\nu]} \theta)
 + \lambda_0 \big(1 - e^{-\phi/\phi_s}\big)\,\phi\,\hat{\rho}(x)
+$$
 
 ---
 
