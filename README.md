@@ -46,7 +46,7 @@ The Pre-Quantum Field (PQF) Lagrangian makes **five bold, testable predictions**
 
 
 
-## ⚛️ Pre Quantum Field (PQF) Lagrangian (Revision Note)
+## ⚛️ Pre Quantum Field (PQF) Lagrangian
 
 ### 🔄 Revision Note on the Vortex Term
 The original vortex contribution was written as \((\nabla \times \nabla \phi)^2\),  
@@ -55,49 +55,31 @@ which vanishes identically for a smooth scalar field.
 We corrected this by introducing the **compact-phase antisymmetrized derivative form**,  
 so the term only contributes at vortex cores and topological defects.
 
-
 ---
 
 ### ✅ Canonical Form
 
-```math
-
-$$
+\[
 \mathcal{L}_{\mathrm{PQF}} =
 -\tfrac{1}{2} (\partial_\mu \phi)(\partial^\mu \phi)
 - \rho_0 e^{-\phi/\phi_s}
 - \tfrac{\kappa}{2} (\partial_{[\mu}\partial_{\nu]} \theta)(\partial^{[\mu}\partial^{\nu]} \theta)
 + \lambda_0 \big(1 - e^{-\phi/\phi_s}\big)\,\phi\,\hat{\rho}(x)
-$$
+\]
 
 ---
 
 ### 📖 Term Definitions
 
-- \(\phi(x)\) — Pre Quantum Field (fundamental scalar field)  
-- \(\theta \equiv \phi \bmod 2\pi\) — compact phase of the field  
-- \(\hat{\rho}(x) = \xi \Big[ \tfrac{1}{2} (\partial_\mu \phi)(\partial^\mu \phi) + V(\phi) \Big]\) — emergent matter density  
-- \(V(\phi) = \rho_0 e^{-\phi/\phi_s}\) — vacuum potential  
-- \(\lambda(\phi) = \lambda_0 (1 - e^{-\phi/\phi_s})\) — matter–field coupling strength  
-- \(\kappa\) — vortex coupling constant (string/knot tension)  
-- \(\rho_0\) — base vacuum energy density (“fuel tank”)  
-- \(\phi_s\) — screening scale (critical collapse slope)  
-- \(\xi\) — conversion efficiency factor  
-
-Indices are raised/lowered with the Minkowski metric \(\eta^{\mu\nu}\).
-
-
----
-
-### 🔑 Parameter Reference
-
-| Symbol       | Technical Role                 | Intuitive Role          |
-|--------------|--------------------------------|--------------------------|
-| \(\rho_0\)   | Base vacuum energy density     | Vacuum’s “fuel tank”     |
-| \(\phi_s\)   | Screening scale                | Critical collapse slope  |
-| \(\kappa\)   | Vortex coupling constant       | String/knot tension      |
-| \(\lambda_0\)| Matter–field coupling strength | Collapse switch          |
-| \(\xi\)      | Conversion efficiency factor   | Field-to-matter scaling  |
+- **φ(x)** — Pre Quantum Field (PQF) scalar field  
+- **θ ≡ φ mod 2π** — angular (phase) variable  
+- **ρ̂(x) = ξ [½ (∂_μ φ ∂^μ φ) + V(φ)]** — matter density operator  
+- **V(φ) = ρ₀ e^(−φ/φ_s)** — potential energy term  
+- **λ(φ) = λ₀ (1 − e^(−φ/φ_s))** — coupling function  
+- **κ** — vortex coupling constant  
+- **ρ₀** — base vacuum energy scale  
+- **φ_s** — screening scale (critical decoherence length)  
+- **ξ** — field-to-matter conversion efficiency
 
 
 
