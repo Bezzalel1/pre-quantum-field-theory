@@ -91,24 +91,37 @@ so the term only contributes at vortex cores and topological defects.
 
 Here is the compact canonical form of the PQF Lagrangian, corrected with the topological vortex term:
 
-```math
+``math
 \mathcal{L}_{\mathrm{PQF}} =
--\tfrac{1}{2} (\partial_\mu \phi)(\partial^\mu \phi)
+- \tfrac{1}{2} (\partial_\mu \phi)(\partial^\mu \phi)
 - \rho_0 e^{-\phi/\phi_s}
 - \tfrac{\kappa}{2} (\partial_{[\mu}\partial_{\nu]} \theta)(\partial^{[\mu}\partial^{\nu]} \theta)
-+ \lambda_0 \big(1 - e^{-\phi/\phi_s}\big)\,\phi\,\hat{\rho}(x)
++ \lambda_0 \big(1 - e^{-\phi/\phi_s}\big)\phi \, \hat{\rho}(x)
 
-### 📖 Term Definitions
+📖 Term Definitions
 
-- **φ(x)** — Pre Quantum Field (PQF) scalar field  
-- **θ ≡ φ mod 2π** — angular (phase) variable  
-- **ρ̂(x) = ξ [½ (∂_μ φ ∂^μ φ) + V(φ)]** — matter density operator  
-- **V(φ) = ρ₀ e^(−φ/φ_s)** — potential energy term  
-- **λ(φ) = λ₀ (1 − e^(−φ/φ_s))** — coupling function  
-- **κ** — vortex coupling constant  
-- **ρ₀** — base vacuum energy scale  
-- **φ_s** — screening scale (critical decoherence length)  
-- **ξ** — field-to-matter conversion efficiency
+φ(x) — Pre-Quantum Field (PQF) scalar
+
+θ ≡ φ mod 2π — angular (phase) variable used in the vortex term
+
+ρ̂(x) = ξ [½ (∂_μ φ ∂^μ φ) + V(φ)] — matter density operator (decohered field energy)
+
+V(φ) = ρ₀ e^(−φ/φ_s) — potential energy density (screening potential)
+
+λ(φ) = λ₀ (1 − e^(−φ/φ_s)) — coupling function
+
+κ — vortex coupling constant
+
+ρ₀ — base vacuum energy scale
+
+φₛ — screening scale (critical field threshold)
+
+ξ — field-to-matter conversion efficiency
+
+
+---
+
+
 
 
 
