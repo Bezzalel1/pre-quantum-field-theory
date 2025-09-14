@@ -16,12 +16,20 @@ The Pre-Quantum Field (PQF) Lagrangian makes **five bold, testable predictions**
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Bezzalel1/pre-quantum-field-theory/HEAD?labpath=notebooks/pqf_top_quark_mass.ipynb)
 
+_SM:_ The Standard Model takes the top quark mass as an experimental input.  
+_PQF:_ Derives the value directly from field dynamics.  
+_Code:_ Running the notebook reproduces ~172.76 GeV, matching Standard Model experiment without input.
+
 2. **QCD String Tension**: 0.948 GeV/fm  
    ✅ Confirmed (matches lattice QCD: 0.94 ± 0.05 GeV/fm)
 
   [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Bezzalel1/pre-quantum-field-theory/blob/main/notebooks/pqf_string_tension.ipynb)
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Bezzalel1/pre-quantum-field-theory/HEAD?labpath=notebooks/pqf_string_tension.ipynb)
+
+_SM:_ Lattice QCD computes the string tension numerically, treating it as a parameter to be matched.  
+_PQF:_ Predicts the value from first principles through vacuum structure and vortex dynamics.  
+_Code:_ The notebook shows 0.948 GeV/fm, within lattice error bars, matching experiment without input.
 
 3. **Gravitational Wave Phase Deviation**: > 9.2σ beyond GR  
    🔬 Testable now with LIGO–Virgo–KAGRA O4/O5 runs
@@ -30,12 +38,20 @@ The Pre-Quantum Field (PQF) Lagrangian makes **five bold, testable predictions**
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Bezzalel1/pre-quantum-field-theory/HEAD?labpath=notebooks/pqf_grav_wave_phase.ipynb)
 
+_SM:_ Collapse is postulated as a probabilistic process; outcome is fundamentally random.  
+_PQF:_ Collapse emerges as a deterministic instability of the field, with predictable bias.  
+_Code:_ The notebook demonstrates amplitude-biased collapse, reproducing Born-rule behavior without postulates.
+
 4. **Resolved Hubble Tension**: H₀ ≈ 70.5 km/s/Mpc  
    📊 Pending – prediction resolves early/late universe tension
 
  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Bezzalel1/pre-quantum-field-theory/blob/main/notebooks/pqf_hubble_tension.ipynb)
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Bezzalel1/pre-quantum-field-theory/HEAD?labpath=notebooks/pqf_hubble_tension.ipynb)
+
+_SM:_ General Relativity predicts no cumulative phase drift in GW signals.  
+_PQF:_ Predicts a tiny per-cycle drift from structured-field corrections.  
+_Code:_ The notebook visualizes cumulative phase difference and its scaling with detector sensitivity.
 
 5. **Collapse Peak**: φ ≈ 1.44 φₛ  
 🧪 Testable – predicts correlation of dark matter halos & visible matter  
@@ -44,6 +60,10 @@ The Pre-Quantum Field (PQF) Lagrangian makes **five bold, testable predictions**
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Bezzalel1/pre-quantum-field-theory/blob/main/notebooks/pqf_predictions.ipynb)
   
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Bezzalel1/pre-quantum-field-theory/HEAD?labpath=notebooks/pqf_predictions.ipynb)
+
+_SM:_ ΛCDM cannot reconcile early-time (Planck) and late-time (SH0ES) values of H₀.  
+_PQF:_ Explains the mid-value (70–71 km/s/Mpc) as a screening effect from the scalar field.  
+_Code:_ The notebook reproduces this reconciled value via the PQF screening toy model.
 
 
 
