@@ -16,9 +16,14 @@ The Pre-Quantum Field (PQF) Lagrangian makes **five bold, testable predictions**
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Bezzalel1/pre-quantum-field-theory/HEAD?labpath=notebooks/pqf_top_quark_mass.ipynb)
 
-_SM:_ The Standard Model takes the top quark mass as an experimental input.  
-_PQF:_ Derives the value directly from field dynamics.  
-_Code:_ Running the notebook reproduces ~172.76 GeV, matching Standard Model experiment without input.
+Top Quark Mass
+
+Standard Model (SM): The Yukawa coupling is a free parameter, tuned to match experiment.
+
+PQF Claim: The Yukawa coupling emerges naturally ≈ 0.993, giving the correct top mass without input.
+
+What the Code Shows: Running the notebook reproduces 172.76 GeV (the measured value) directly, supporting PQF’s predictive power.
+
 
 
 
@@ -29,9 +34,13 @@ _Code:_ Running the notebook reproduces ~172.76 GeV, matching Standard Model exp
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Bezzalel1/pre-quantum-field-theory/HEAD?labpath=notebooks/pqf_string_tension.ipynb)
 
-_SM:_ Lattice QCD computes the string tension numerically, treating it as a parameter to be matched.  
-_PQF:_ Predicts the value from first principles through vacuum structure and vortex dynamics.  
-_Code:_ The notebook shows 0.948 GeV/fm, within lattice error bars, matching experiment without input.
+QCD String Tension
+
+Standard Model (SM): The string tension is taken as an empirical constant from lattice QCD.
+
+PQF Claim: The value emerges naturally from vortex structure in the PQF field.
+
+What the Code Shows: Running the notebook reproduces ≈ 0.948 GeV/fm, matching lattice QCD without external input.
 
 
 
