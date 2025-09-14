@@ -86,6 +86,7 @@ _Code:_ The notebook reproduces this reconciled value via the PQF screening toy 
 
 
 ## ⚛️ Pre Quantum Field (PQF) Lagrangian
+LICENSE — [Creative Commons Attribution-NonCommercial 4.0](https://creativecommons.org/licenses/by-nc/4.0/)
 
 ### 🔄 Revision Note on the Vortex Term
 The original vortex contribution was written as \((\nabla \times \nabla \phi)^2\),  
