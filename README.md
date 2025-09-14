@@ -129,6 +129,25 @@ V(φ) = ρ₀ e^(−φ/φ_s) — potential energy density (screening potential)
 ξ — field-to-matter conversion efficiency
 
 
+### 🆚 PQF vs. Higgs Field
+
+PQF is **not** a rebranding of the Higgs field. Key differences:
+
+- **Purpose**:  
+  The Higgs explains how particles acquire mass within the Standard Model.  
+  PQF, instead, is a **foundational substrate**: it generates matter, curvature, and quantum behavior themselves.  
+
+- **Mechanism**:  
+  The Higgs field has a single potential and symmetry-breaking minimum.  
+  PQF introduces **vortex topology and screening dynamics**, producing rotation curves, decoherence, and entanglement.  
+
+- **Scope**:  
+  The Higgs operates as one field among many.  
+  PQF is the **operating system of reality**—from cosmology to quantum collapse—without extra postulates.  
+
+👉 For particle physicists: PQF does not duplicate the Higgs mechanism but *supersedes it*, embedding the Higgs as an emergent sector within a richer field dynamics.
+
+
 ---
 
 
