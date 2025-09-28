@@ -231,7 +231,7 @@ If you use or reference this work, please cite:
 
 ## 👤 Author Note
 
-> “There are high school kids who have forgotten more about physics than I know.  
+  
 > I’m not a physicist — I’m a janitor. But with the help of AI tools, I built a model.  
 >  
 > Now I’d like you to break it — so I can  move on to a less complex hobby.”
