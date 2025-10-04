@@ -44,16 +44,7 @@ What the Code Shows: Running the notebook reproduces ≈ 0.948 GeV/fm, matching 
 
 
 
-3. **Gravitational Wave Phase Deviation**: > 9.2σ beyond GR  
-   🔬 Testable now with LIGO–Virgo–KAGRA O4/O5 runs
-
-  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Bezzalel1/pre-quantum-field-theory/blob/main/notebooks/pqf_grav_wave_phase.ipynb)
-
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Bezzalel1/pre-quantum-field-theory/HEAD?labpath=notebooks/pqf_grav_wave_phase.ipynb)
-
-_SM:_ Collapse is postulated as a probabilistic process; outcome is fundamentally random.  
-_PQF:_ Collapse emerges as a deterministic instability of the field, with predictable bias.  
-_Code:_ The notebook demonstrates amplitude-biased collapse, reproducing Born-rule behavior without postulates.
+3.
 
 
 
