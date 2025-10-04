@@ -44,7 +44,7 @@ What the Code Shows: Running the notebook reproduces ≈ 0.948 GeV/fm, matching 
 
 
 
-3.
+
 
 
 
