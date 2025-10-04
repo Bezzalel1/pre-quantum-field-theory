@@ -5,7 +5,7 @@
 
 
 
-# 🔮 Five Key Predictions of Pre-Quantum Field Theory
+# 🔮 7 Key Predictions of Pre-Quantum Field Theory
 
 The Pre-Quantum Field (PQF) Lagrangian makes **five bold, testable predictions** that distinguish it from the Standard Model and General Relativity:
 
@@ -79,6 +79,13 @@ _SM:_ ΛCDM cannot reconcile early-time (Planck) and late-time (SH0ES) values of
 _PQF:_ Explains the mid-value (70–71 km/s/Mpc) as a screening effect from the scalar field.  
 _Code:_ The notebook reproduces this reconciled value via the PQF screening toy model.
 
+
+### 6. Geodesic-like Ray Bending (Derived)
+
+2D demo showing ray bending from the LPQF-derived index field \(n(x,y)=1/c_{eff}(x,y)\). Visual “gravity without GR.”  
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Bezzalel1/pre-quantum-field-theory/blob/main/notebooks/pqf_geodesic_ray_bending.ipynb)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Bezzalel1/pre-quantum-field-theory/HEAD?labpath=notebooks/pqf_geodesic_ray_bending.ipynb)
 
 
 
