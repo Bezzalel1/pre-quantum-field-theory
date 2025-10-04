@@ -7,7 +7,7 @@
 
 # 🔮 7 Key Predictions of Pre-Quantum Field Theory
 
-The Pre-Quantum Field (PQF) Lagrangian makes **five bold, testable predictions** that distinguish it from the Standard Model and General Relativity:
+The Pre-Quantum Field (PQF) Lagrangian makes **7 bold, testable predictions** that distinguish it from the Standard Model and General Relativity:
 
 
   1. **Top Quark Mass**: 172.76 GeV  
