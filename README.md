@@ -1,4 +1,5 @@
-
+This repository contains official, verified PQF simulation notebooks by Daniel Manu.
+Forks and derivative work must preserve attribution
 
 
 
