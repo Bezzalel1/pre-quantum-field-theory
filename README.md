@@ -17,13 +17,19 @@ The Pre-Quantum Field (PQF) Lagrangian makes **6 bold, testable predictions** th
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Bezzalel1/pre-quantum-field-theory/HEAD?labpath=notebooks/pqf_top_quark_mass.ipynb)
 
-Top Quark Mass
+# PQF: Top Quark Mass — Numerical Check
 
-Standard Model (SM): The Yukawa coupling is a free parameter, tuned to match experiment.
+This notebook illustrates how a PQF-motivated Yukawa-like coupling near 1
+is numerically consistent with the observed **top quark mass**.
 
-PQF Claim: The Yukawa coupling emerges naturally ≈ 0.993, giving the correct top mass without input.
+### What this notebook does
+• Uses the standard relation \( m_t = y_t\, v / \sqrt{2} \) with \( v \approx 246.22\,\text{GeV} \).  
+• Shows that \( y_t \approx 0.993 \) reproduces the PDG top quark mass (≈172.76 GeV).  
+• Demonstrates sensitivity: tiny shifts in \( y_t \) move \( m_t \) by GeV-level amounts.  
 
-What the Code Shows: Running the notebook reproduces 172.76 GeV (the measured value) directly, supporting PQF’s predictive power.
+### What this notebook does *not* do (yet)
+• It does **not** include the full PQF derivation that fixes \( y_t \) from PQF parameters; that mapping is developed elsewhere and will be added in a later update.  
+• For now, this demo is a transparent, reproducible numerical check of the PQF-motivated value \( y_t \approx 0.993 \) using standard SM relations.
 
 
 
