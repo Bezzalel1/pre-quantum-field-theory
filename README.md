@@ -17,8 +17,6 @@ The Pre-Quantum Field (PQF) Lagrangian makes **6 bold, testable predictions** th
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Bezzalel1/pre-quantum-field-theory/HEAD?labpath=notebooks/pqf_top_quark_mass.ipynb)
 
-# PQF: Top Quark Mass — Numerical Check
-
 This notebook illustrates how a PQF-motivated Yukawa-like coupling near 1
 is numerically consistent with the observed **top quark mass**.
 
