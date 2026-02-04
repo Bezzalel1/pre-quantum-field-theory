@@ -109,7 +109,8 @@ _Code:_ The notebook visualizes cumulative phase difference and its scaling with
 
 
 5. **Collapse Peak**: φ ≈ 1.44 φₛ  
- Testable – predicts correlation of dark matter halos & visible matter  
+   Testable – predicts a preferred collapse amplitude (φ ≈ 1.44 φₛ) that should correlate with matter localization in halo-scale environments
+
 
 **(Collapse Peak demo):**  
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Bezzalel1/pre-quantum-field-theory/blob/main/notebooks/pqf_predictions.ipynb)
