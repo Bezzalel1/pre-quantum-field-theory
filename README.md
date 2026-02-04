@@ -51,7 +51,7 @@ Standard Model (SM): The string tension is taken as an empirical constant from l
 
 PQF Claim: The value emerges naturally from vortex structure in the PQF field.
 
-What the Code Shows: Running the notebook reproduces ≈ 0.948 GeV/fm, matching lattice QCD without external input.
+What the Code Shows: Running the notebook reproduces ≈ 0.948 GeV/fm, matching lattice QCD without direct fitting to lattice input.
 
 
 
