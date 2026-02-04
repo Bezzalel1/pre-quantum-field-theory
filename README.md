@@ -1,6 +1,10 @@
-This repository contains official, verified PQF simulation notebooks by Daniel Manu.
-Forks and derivative work must preserve attribution
+This repository contains canonical Pre-Quantum Field (PQF) simulation notebooks and supporting numerical work.
 
+All material here reflects the current canonical formulation of PQF. Earlier or exploratory versions are preserved separately for historical transparency.
+
+Forks or derivative works must preserve attribution.
+
+PQF is an active research framework. Results, assumptions, and interpretations may be refined as further analytical or numerical work warrants.
 
 
 
