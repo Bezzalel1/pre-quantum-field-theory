@@ -55,11 +55,11 @@ What the Code Shows: Running the notebook reproduces ≈ 0.948 GeV/fm, matching 
 
 
 
-### 3. Gravitational-Wave–Like Drift (Derived)
+### 3. Gravitational-Wave–Like Drift (Derived from LPQF dynamics)
 
 > “Note: In this context, ‘drift’ refers to directional bias (refraction) — not propagation slowdown or arrival delay.”
 
-Fully derived from LPQF with no ad-hoc terms. Includes energy-guarded integrator and coherence-driven dispersion.
+Derived directly from LPQF equations of motion with no ad-hoc terms; implemented using an energy-guarded integrator and coherence-driven dispersion.
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Bezzalel1/pre-quantum-field-theory/blob/main/notebooks/pqf_grav_wave_phase_derived.ipynb)
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Bezzalel1/pre-quantum-field-theory/HEAD?labpath=notebooks/pqf_grav_wave_phase_derived.ipynb)
