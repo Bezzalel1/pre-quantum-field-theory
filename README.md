@@ -41,20 +41,37 @@ is numerically consistent with the observed **top quark mass**.
 
 
 2.**QCD String Tension**: 0.948 GeV/fm  
-   ✅ Numerically consistent with lattice QCD results
-(0.948 GeV/fm; lattice QCD: 0.94 ± 0.05 GeV/fm)
+   ✅ # PQF: QCD String Tension — Numerical Check
+
+This notebook checks that the **Pre-Quantum Field (PQF)** framework’s
+string-tension value is numerically consistent with a representative
+**QCD string tension** from lattice calculations.
+
+**In short:** we take a PQF-motivated value σ_PQF = 0.948 GeV/fm
+(from separate PQF analysis, not derived in this notebook) and compare it
+with a representative lattice QCD value σ_lat ≈ 0.94 ± 0.05 GeV/fm.
+The two agree well within the quoted lattice uncertainty.
+
+## What this notebook does
+
+- States a representative lattice reference value and the PQF-motivated value σ_PQF.
+- Computes their difference and how many **standard deviations** separate them.
+- Plots a side-by-side comparison with an error bar for the lattice value.
+
+## What this notebook does *not* do (yet)
+
+- It does **not** include the full PQF first-principles derivation that fixes σ
+  from PQF parameters. That mapping is handled in separate analytical work and
+  will be documented in a dedicated notebook/paper.
+
+For now, this demo provides a transparent, reproducible check of the stated
+PQF value against lattice results.
 
   [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Bezzalel1/pre-quantum-field-theory/blob/main/notebooks/pqf_string_tension.ipynb)
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Bezzalel1/pre-quantum-field-theory/HEAD?labpath=notebooks/pqf_string_tension.ipynb)
 
-QCD String Tension
 
-Standard Model (SM): The string tension is taken as an empirical constant from lattice QCD.
-
-PQF Claim: The value emerges naturally from vortex structure in the PQF field.
-
-What the Code Shows: Running the notebook reproduces ≈ 0.948 GeV/fm, matching lattice QCD without direct fitting to lattice input.
 
 
 
