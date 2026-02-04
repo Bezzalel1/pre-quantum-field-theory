@@ -50,7 +50,7 @@ This notebook checks that the **Pre-Quantum Field (PQF)** framework’s
 string-tension value is numerically consistent with a representative
 **QCD string tension** from lattice calculations.
 
-**In short:** we take a PQF-motivated value σ_PQF = 0.948 GeV/fm
+**In short:** we adopt a PQF-motivated value σ_PQF = 0.948 GeV/fm
 (from separate PQF analysis, not derived in this notebook) and compare it
 with a representative lattice QCD value σ_lat ≈ 0.94 ± 0.05 GeV/fm.
 The two agree well within the quoted lattice uncertainty.
