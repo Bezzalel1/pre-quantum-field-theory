@@ -37,7 +37,8 @@ is numerically consistent with the observed **top quark mass**.
 
 
 
-2. **QCD String Tension**: 0.948 GeV/fm  
+
+2.**QCD String Tension**: 0.948 GeV/fm  
    ✅ Numerically consistent with lattice QCD results
 (0.948 GeV/fm; lattice QCD: 0.94 ± 0.05 GeV/fm)
 
@@ -67,8 +68,8 @@ Derived directly from LPQF equations of motion with no ad-hoc terms; implemented
 
 
 
-4. **Resolved Hubble Tension**: H₀ ≈ 70.5 km/s/Mpc  
-   📊 Pending – prediction resolves early/late universe tension
+4. Hubble Tension Compatibility: H₀ ≈ 70.5 km/s/Mpc
+⏳ Pending observational confirmation — PQF predicts an effective H₀ consistent with both early- and late-universe measurements.
 
  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Bezzalel1/pre-quantum-field-theory/blob/main/notebooks/pqf_hubble_tension.ipynb)
 
