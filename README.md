@@ -16,7 +16,7 @@ The Pre-Quantum Field (PQF) Lagrangian makes **6 bold, testable predictions** th
 
 
   1. **Top Quark Mass**: 172.76 GeV  
-✅  Consistent with observation assuming y_t ≈ 1; first-principles derivation pending
+  Consistent with observation assuming y_t ≈ 1; first-principles derivation pending
 (matches PDG 2023 value: 172.76 ± 0.30 GeV)
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Bezzalel1/pre-quantum-field-theory/blob/main/notebooks/pqf_top_quark_mass.ipynb)
 
@@ -44,7 +44,7 @@ is numerically consistent with the observed **top quark mass**.
 
 
 2.**QCD String Tension**: 0.948 GeV/fm  
-   ✅ # PQF: QCD String Tension — Numerical Check
+    # PQF: QCD String Tension — Numerical Check
 
 This notebook checks that the **Pre-Quantum Field (PQF)** framework’s
 string-tension value is numerically consistent with a representative
@@ -94,7 +94,7 @@ Derived directly from LPQF equations of motion with no ad-hoc terms; implemented
 
 
 4. Hubble Tension Compatibility: H₀ ≈ 70.5 km/s/Mpc
-⏳ Pending observational confirmation — PQF predicts an effective H₀ consistent with both early- and late-universe measurements.
+ Pending observational confirmation — PQF predicts an effective H₀ consistent with both early- and late-universe measurements.
 
  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Bezzalel1/pre-quantum-field-theory/blob/main/notebooks/pqf_hubble_tension.ipynb)
 
@@ -109,7 +109,7 @@ _Code:_ The notebook visualizes cumulative phase difference and its scaling with
 
 
 5. **Collapse Peak**: φ ≈ 1.44 φₛ  
-🧪 Testable – predicts correlation of dark matter halos & visible matter  
+ Testable – predicts correlation of dark matter halos & visible matter  
 
 **(Collapse Peak demo):**  
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Bezzalel1/pre-quantum-field-theory/blob/main/notebooks/pqf_predictions.ipynb)
