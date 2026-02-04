@@ -40,6 +40,9 @@ is numerically consistent with the observed **top quark mass**.
 
 
 
+
+
+
 2.**QCD String Tension**: 0.948 GeV/fm  
    ✅ # PQF: QCD String Tension — Numerical Check
 
