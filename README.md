@@ -16,7 +16,7 @@ The Pre-Quantum Field (PQF) Lagrangian makes **6 bold, testable predictions** th
 
 
   1. **Top Quark Mass**: 172.76 GeV  
-✅ Consistent with observation given first-principles derivation pending (matches PDG 2023 value: 172.76 ± 0.30 GeV)  
+✅ Consistent with observation given, first-principles derivation pending (matches PDG 2023 value: 172.76 ± 0.30 GeV)  
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Bezzalel1/pre-quantum-field-theory/blob/main/notebooks/pqf_top_quark_mass.ipynb)
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Bezzalel1/pre-quantum-field-theory/HEAD?labpath=notebooks/pqf_top_quark_mass.ipynb)
