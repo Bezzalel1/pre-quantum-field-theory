@@ -38,7 +38,8 @@ is numerically consistent with the observed **top quark mass**.
 
 
 2. **QCD String Tension**: 0.948 GeV/fm  
-   ✅ Confirmed (matches lattice QCD: 0.94 ± 0.05 GeV/fm)
+   ✅ Numerically consistent with lattice QCD results
+(0.948 GeV/fm; lattice QCD: 0.94 ± 0.05 GeV/fm)
 
   [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Bezzalel1/pre-quantum-field-theory/blob/main/notebooks/pqf_string_tension.ipynb)
 
