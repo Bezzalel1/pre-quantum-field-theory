@@ -136,6 +136,7 @@ _Code:_ The notebook reproduces this reconciled value via the PQF screening toy 
 LICENSE — [Creative Commons Attribution-NonCommercial 4.0](https://creativecommons.org/licenses/by-nc/4.0/)
 
 Revision Note on the Vortex Term
+
 The original vortex contribution was written as
 (∇ × ∇φ)²
 which vanishes identically for any smooth scalar field. This follows from the vector identity that the curl of a gradient is zero.
@@ -143,15 +144,17 @@ To correctly represent topological structure, the canonical formulation introduc
 θ ≡ φ mod 2π
 and defines the antisymmetrized derivative
 Ωμν ≡ ∂[μ ∂ν] θ
+which explicitly means
+Ωμν = ∂μ∂νθ − ∂ν∂μθ.
 For smooth single-valued configurations, Schwarz’s theorem implies
-Ωμν = 0
+Ωμν = 0.
 Therefore the vortex sector vanishes in smooth bulk regions and contributes only when the compact phase field contains topological defects such as vortex cores.
 Canonical PQF Lagrangian
 The canonical PQF Lagrangian used in this repository is
 L_PQF =
 − ½ (∂μφ)(∂^μφ)
 − ρ₀ e^(−φ/φₛ)
-− (κ/2) Ωμν Ω^μν
+− (κ / 2) Ωμν Ω^μν
 − λ₀ (1 − e^(−φ/φₛ)) φ ρ_loc(x)
 with
 Ωμν ≡ ∂[μ ∂ν] θ
@@ -160,12 +163,12 @@ Term Definitions
 φ(x) — Pre-Quantum Field (PQF) scalar
 θ ≡ φ mod 2π — angular (phase) variable used in the vortex sector
 ρ_loc(x) — localized energy density entering the effective coupling
+(the field-to-matter conversion factor ξ is absorbed into this effective density)
 V(φ) = ρ₀ e^(−φ/φₛ) — potential energy density (screening potential)
 λ(φ) = λ₀ (1 − e^(−φ/φₛ)) — coupling function
 κ — vortex coupling constant
 ρ₀ — base vacuum energy scale
 φₛ — screening scale (critical field threshold)
-ξ — field-to-matter conversion efficiency
 Smooth-Bulk Limit
 For smooth bulk field configurations
 Ωμν = 0
