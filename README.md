@@ -140,17 +140,21 @@ Revision Note on the Vortex Term
 The original vortex contribution was written as
 (∇ × ∇φ)²
 which vanishes identically for any smooth scalar field. This follows from the vector identity that the curl of a gradient is zero.
+
 To correctly represent topological structure, the canonical formulation introduces a compact phase field
 θ ≡ φ mod 2π
 and defines the antisymmetrized derivative
 Ωμν ≡ ∂[μ ∂ν] θ
 which explicitly means
 Ωμν = ∂μ∂νθ − ∂ν∂μθ.
+
 For smooth single-valued configurations, Schwarz’s theorem implies
 Ωμν = 0.
+
 Therefore the vortex sector vanishes in smooth bulk regions and contributes only when the compact phase field contains topological defects such as vortex cores.
 
 Canonical PQF Lagrangian
+
 The canonical PQF Lagrangian used in this repository is
 L_PQF =
 − ½ (∂μφ)(∂^μφ)
@@ -163,6 +167,7 @@ with
 θ ≡ φ mod 2π
 
 Term Definitions
+
 φ(x) — Pre-Quantum Field (PQF) scalar
 θ ≡ φ mod 2π — angular (phase) variable used in the vortex sector
 ρ_loc(x) — localized energy density entering the effective coupling
