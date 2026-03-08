@@ -153,6 +153,8 @@ For smooth single-valued configurations, Schwarz’s theorem implies
 
 Therefore the vortex sector vanishes in smooth bulk regions and contributes only when the compact phase field contains topological defects such as vortex cores.
 
+All equations in this repository use natural units.
+
 Canonical PQF Lagrangian
 
 The canonical PQF Lagrangian used in this repository is:
