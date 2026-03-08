@@ -155,7 +155,8 @@ Therefore the vortex sector vanishes in smooth bulk regions and contributes only
 
 Canonical PQF Lagrangian
 
-The canonical PQF Lagrangian used in this repository is
+The canonical PQF Lagrangian used in this repository is:
+
 L_PQF =
 − ½ (∂μφ)(∂^μφ)
 − ρ₀ e^(−φ/φₛ)
