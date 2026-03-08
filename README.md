@@ -149,6 +149,7 @@ which explicitly means
 For smooth single-valued configurations, Schwarz’s theorem implies
 Ωμν = 0.
 Therefore the vortex sector vanishes in smooth bulk regions and contributes only when the compact phase field contains topological defects such as vortex cores.
+
 Canonical PQF Lagrangian
 The canonical PQF Lagrangian used in this repository is
 L_PQF =
@@ -156,9 +157,11 @@ L_PQF =
 − ρ₀ e^(−φ/φₛ)
 − (κ / 2) Ωμν Ω^μν
 − λ₀ (1 − e^(−φ/φₛ)) φ ρ_loc(x)
+
 with
 Ωμν ≡ ∂[μ ∂ν] θ
 θ ≡ φ mod 2π
+
 Term Definitions
 φ(x) — Pre-Quantum Field (PQF) scalar
 θ ≡ φ mod 2π — angular (phase) variable used in the vortex sector
@@ -166,9 +169,11 @@ Term Definitions
 (the field-to-matter conversion factor ξ is absorbed into this effective density)
 V(φ) = ρ₀ e^(−φ/φₛ) — potential energy density (screening potential)
 λ(φ) = λ₀ (1 − e^(−φ/φₛ)) — coupling function
+
 κ — vortex coupling constant
 ρ₀ — base vacuum energy scale
 φₛ — screening scale (critical field threshold)
+
 Smooth-Bulk Limit
 For smooth bulk field configurations
 Ωμν = 0
@@ -177,6 +182,7 @@ L_bulk =
 − ½ (∂μφ)(∂^μφ)
 − ρ₀ e^(−φ/φₛ)
 − λ₀ (1 − e^(−φ/φₛ)) φ ρ_loc(x)
+
 The vortex sector therefore contributes only when topological defects exist in the compact phase field.
 
 
