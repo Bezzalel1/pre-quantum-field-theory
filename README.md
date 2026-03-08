@@ -135,45 +135,46 @@ _Code:_ The notebook reproduces this reconciled value via the PQF screening toy 
 ## ⚛️ Pre Quantum Field (PQF) Lagrangian
 LICENSE — [Creative Commons Attribution-NonCommercial 4.0](https://creativecommons.org/licenses/by-nc/4.0/)
 
-### 🔄 Revision Note on the Vortex Term
-The original vortex contribution was written as \((\nabla \times \nabla \phi)^2\),  
-which vanishes identically for a smooth scalar field.  
-
-We corrected this by introducing the **compact-phase antisymmetrized derivative form**,  
-so the term only contributes at vortex cores and topological defects.
-
----
-
-## ✅ Canonical Form
-
-Here is the compact canonical form of the PQF Lagrangian, corrected with the topological vortex term:
-
-``math
-\mathcal{L}_{\mathrm{PQF}} =
-- \tfrac{1}{2} (\partial_\mu \phi)(\partial^\mu \phi)
-- \rho_0 e^{-\phi/\phi_s}
-- \tfrac{\kappa}{2} (\partial_{[\mu}\partial_{\nu]} \theta)(\partial^{[\mu}\partial^{\nu]} \theta)
-+ \lambda_0 \big(1 - e^{-\phi/\phi_s}\big)\phi \, \hat{\rho}(x)
-
-📖 Term Definitions
-
+Revision Note on the Vortex Term
+The original vortex contribution was written as
+(∇ × ∇φ)²
+which vanishes identically for any smooth scalar field. This follows from the vector identity that the curl of a gradient is zero.
+To correctly represent topological structure, the canonical formulation introduces a compact phase field
+θ ≡ φ mod 2π
+and defines the antisymmetrized derivative
+Ωμν ≡ ∂[μ ∂ν] θ
+For smooth single-valued configurations, Schwarz’s theorem implies
+Ωμν = 0
+Therefore the vortex sector vanishes in smooth bulk regions and contributes only when the compact phase field contains topological defects such as vortex cores.
+Canonical PQF Lagrangian
+The canonical PQF Lagrangian used in this repository is
+L_PQF =
+− ½ (∂μφ)(∂^μφ)
+− ρ₀ e^(−φ/φₛ)
+− (κ/2) Ωμν Ω^μν
+− λ₀ (1 − e^(−φ/φₛ)) φ ρ_loc(x)
+with
+Ωμν ≡ ∂[μ ∂ν] θ
+θ ≡ φ mod 2π
+Term Definitions
 φ(x) — Pre-Quantum Field (PQF) scalar
-
-θ ≡ φ mod 2π — angular (phase) variable used in the vortex term
-
-ρ̂(x) = ξ [½ (∂_μ φ ∂^μ φ) + V(φ)] — matter density operator (decohered field energy)
-
-V(φ) = ρ₀ e^(−φ/φ_s) — potential energy density (screening potential)
-
-λ(φ) = λ₀ (1 − e^(−φ/φ_s)) — coupling function
-
+θ ≡ φ mod 2π — angular (phase) variable used in the vortex sector
+ρ_loc(x) — localized energy density entering the effective coupling
+V(φ) = ρ₀ e^(−φ/φₛ) — potential energy density (screening potential)
+λ(φ) = λ₀ (1 − e^(−φ/φₛ)) — coupling function
 κ — vortex coupling constant
-
 ρ₀ — base vacuum energy scale
-
 φₛ — screening scale (critical field threshold)
-
 ξ — field-to-matter conversion efficiency
+Smooth-Bulk Limit
+For smooth bulk field configurations
+Ωμν = 0
+and the dynamics reduce to
+L_bulk =
+− ½ (∂μφ)(∂^μφ)
+− ρ₀ e^(−φ/φₛ)
+− λ₀ (1 − e^(−φ/φₛ)) φ ρ_loc(x)
+The vortex sector therefore contributes only when topological defects exist in the compact phase field.
 
 
 ### 🆚 PQF vs. Higgs Field
